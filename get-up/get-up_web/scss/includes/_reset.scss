@@ -1,0 +1,35 @@
+*,
+:after,
+:before {
+  
+  box-sizing: border-box;
+}
+
+:root {
+  --app-height: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  min-width: 320px;
+  margin:auto; 
+  background: #0F1145;
+  //font-family: $fontMain;
+  font-family: Open Sans;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #8476AA;
+  font-weight: 600;
+  //font-family: HelveticaNeueMedium;
+  
+}  
+
+
+#main {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}

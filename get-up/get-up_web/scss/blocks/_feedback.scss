@@ -1,0 +1,107 @@
+.feedback {
+  padding-top: 50px;
+  position: relative;
+
+  &__meteor{
+    background-image: url(#{$rootUrl}feedback_meteor.png);
+    height: 365px;
+    width: 1900px;
+    position: absolute;
+    top: 10px;   
+    left: 50px; 
+    z-index: -1;
+
+  }
+
+  &__inner {
+    border-radius: 5px;
+    z-index: 100;
+    text-align: center;
+    background: rgba(60, 62, 125, 52%);
+    opacity: 1;
+    margin: auto 80px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
+
+  &__title {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #F2994A;
+  }
+
+  &__sub-title {
+    padding: 20px 20px;
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #95A1BB;
+    
+  }
+
+  &__text {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.search {
+  display: inline-block;
+  vertical-align: top;
+  height: 60px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 5px;
+  padding-right: 175px;
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  
+  //padding: ;
+  //margin: 2px 20px;
+  //display: block;
+  background: rgba(60, 62, 125, 52%);
+  background: rgb(34 36 97 / 75%);
+
+  &__input {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    padding: 20px 17px;
+
+    color: #8985a4;
+    font-size: 15px;
+    font-weight: 300;
+    outline: 0;
+
+  }
+
+  &__btn {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 17px 0;
+    width: 130px ;
+    //height: 100%;
+    text-align: center;
+    letter-spacing: 1.5px;
+  }
+  
+}
+
+@media(max-width: 800px) {
+  .feedback__inner {
+  margin: 0;
+  padding: 0;
+
+  }
+  
+}

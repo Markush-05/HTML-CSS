@@ -1,0 +1,242 @@
+.about {
+  padding-top: 62px;
+  padding-bottom: 62px;
+  background: linear-gradient(180deg, rgba(0, 67, 164, 0) 0%, rgba(242, 242, 242, 0.46) 100%);
+}
+
+.request{
+  padding-top: 62px;
+  padding-bottom: 62px;
+  background: linear-gradient(180deg, rgba(0, 73, 179, 0) -4.1%, #0A3473 95.9%);
+  &__step-by-step{
+    padding-top: 135px;
+    justify-content: space-between;
+    margin-bottom: 126px;// 75px;
+  }
+  &__btn{
+    width: 240px;
+    margin: 0 auto;
+  }
+}
+
+.partner {
+  flex: 0 0 43%;
+  &__hat {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 40px;
+  }
+
+  &__item {
+    &--logo {
+      flex: 0 0 100%;
+      padding-right: 33px;
+      border-right: solid 2px #BBBBBB;
+      border-image: linear-gradient(to top, #13354F -24%, #D2DEEE 165%);
+      border-image-slice: 1;
+    }
+
+    &--park {
+      height: 105px;
+      width: 60px;
+      display: block;
+      margin-left: 33px;
+      svg{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  &__footer {
+    font-family: Montserrat;
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    padding: 8px 21px;
+    background: linear-gradient(269deg, #23a4dd -4.1%, #264598 95.9%); 
+    clip-path: polygon(0% 0%, 96% 0, 100% 30%, 100% 100%, 80% 100%, 0 100%, 0% 80%, 0% 20%); 
+    max-width: 382px;
+    height: 47.99px;
+  }
+}
+.partner__footer::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 4%;///17px;
+  height: 14px;
+  background-color: #262262;
+}
+
+.benefits {
+  width: 57%;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    max-width: 255px;
+    margin-right: 38px;
+  }
+  &__icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 15px;
+    color: #22A5DD;
+  }
+
+  &__titel {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;  
+    color: #373B3D;
+  }
+
+  &__text {
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #373B3D;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+      font-family: Montserrat;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.3px;
+      color: #373B3D;
+    }
+  }
+}
+
+.step-by-step {
+  width: 33.333%;
+  padding-right: 8px;
+  padding-bottom: 52px;
+  max-width: 320px;
+
+  &__number {
+    margin-bottom: 50px;
+    font-size: 109px;
+    line-height: 1;
+    color: #FFFFFF;
+  }
+
+  &__titel {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    margin: 0 0 23px 0;
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.3px;
+      color: #FFFFFF;
+    }
+  }
+
+  &__text {
+    margin: 0;
+  }
+}
+
+@media(max-width: 1070px){
+.benefits__item{
+  margin-right: 10px;
+ }
+}
+
+@media(max-width: 960px){
+  .block-main {
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #d6e7ff 50%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#d6e7ff 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 0%,#d6e7ff 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  }
+
+  .about {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background:none;
+  }
+  .request{
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background:none;
+    &__step-by-step {
+      padding: 0;
+      margin: 0;
+      justify-content: space-evenly;
+    }
+    &__btn{
+      .btn-primary{
+        background: linear-gradient(138.87deg, #3C64B1 -15.75%, #052555 105.43%);
+      }
+      .btn-primary:hover{
+        background: none;
+        color: #373B3D;
+        border: 1px solid #3C64B1;
+      }
+    }  
+  }
+
+  .partner{
+    flex: 1 1 100%;
+    margin-bottom: 40px;
+    &__hat{
+      justify-content: center;
+    }
+    &__footer{
+      margin: 0 auto;
+    }
+    
+  }
+  .benefits{
+    width: 100%;
+    justify-content: center;
+    &__item{
+      margin-right: 0;
+      margin-bottom: 20px;
+      
+    }
+  }
+
+  .step-by-step {
+    background: linear-gradient(138.87deg, #3C64B1 -15.75%, #052555 105.43%);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 6px 10px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    padding: 50px 15px 15px 20px;
+    margin-bottom: 53px;
+    width: 100%;
+    min-height: 410px;
+  
+  }
+}
