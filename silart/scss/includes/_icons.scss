@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('#{$rootUrlFonts}icons.ttf?9vyaij') format('truetype'),
+    url('#{$rootUrlFonts}icons.woff?9vyaij') format('woff'),
+    url('#{$rootUrlFonts}icons.svg?9vyaij#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*=" _icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Arrow10:before ,.icon-Arrow10  {
+  content: "\e908";
+}
+.icon-Arrow13:before ,.icon-Arrow10 {
+  content: "\e909";
+}
+.icon-Frame-5:before ,.icon-Arrow10 {
+  content: "\e90a";
+}
+.icon-Group205:before ,.icon-Arrow10 {
+  content: "\e90b";
+}
+.icon-2:before ,.icon-Arrow10 {
+  content: "\e90c";
+}
+.icon-Arrow:before ,.icon-Arrow10 {
+  content: "\e900";
+}
+.icon-icn-facebook:before ,.icon-Arrow10 {
+  content: "\e901";
+}
+.icon-icn-inst:before ,.icon-Arrow10 {
+  content: "\e902";
+}
+.icon-icn-twitter:before ,.icon-Arrow10 {
+  content: "\e903";
+}
+.icon-Intersect:before ,.icon-Arrow10 {
+  content: "\e904";
+}
+.icon-Intersect_left:before ,.icon-Arrow10 {
+  content: "\e905";
+}
+.icon-search:before ,.icon-Arrow10 {
+  content: "\e906";
+}
+.icon-vk:before ,.icon-Arrow10 {
+  content: "\e907";
+}
+
+.icon-Group-25:before ,.icon-Arrow10 {
+  content: "\e90d";
+}
+
+
+/////////////////////////////////////////////@at-root
+

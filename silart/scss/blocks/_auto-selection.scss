@@ -1,0 +1,174 @@
+.search-model {
+
+  &__title {
+    margin: 0 0 20px 0;
+    font-family: Noah;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 114.9%;
+    color: #1B2535;
+  }
+
+  &__form {
+  }
+
+  &__table {
+    margin-bottom: 20px;
+
+  }
+}
+.search-model-form {
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  &__row {
+    width: 427px;
+    height: 68px;
+    border-radius: 5px;
+    border:  1px solid #E4E4E4;
+  }
+
+  &__input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: unset;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B2535;
+  }
+  &__input::placeholder{
+    position: absolute;
+    bottom: 20px;
+    right: 33%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1B2535;
+  }
+}
+.choice {
+
+  background: #F7F6F1;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+  &__hat {
+    margin-bottom: 20px;
+    
+
+  }
+
+  &__titel {
+    font-family: Noah;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 114.9%;
+    color: #1B2535;
+  }
+
+  &__sub-titel {
+    font-family: Noah;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 114.9%;
+    color: #1B2535;
+  }
+
+  &__preview {
+    float: right;
+    font-family: Noah;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 114.9%;
+    color: #1B2535;
+  }
+}
+.table-choice {
+  width: 100%;
+  color: #000;
+
+  &__link{
+    text-decoration: none;
+    font-family: Noah;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 114.9%;
+    /* or 23px */
+
+    display: flex;
+    align-items: center;
+
+    color: #0052B4;
+  }
+
+  th,td{
+    padding: 0.75rem;
+    
+  }
+
+  
+  thead{
+    text-align: left;
+    th{
+      font-family: Noah;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 114.9%;
+      color: #1B2535;
+    }
+  }
+
+
+  tbody{
+    th{
+      font-family: Noah;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 114.9%;
+      color: #1B2535;
+      border-bottom: 1px solid #E4E4E4;
+      //padding: 10px 10px 10px 0;
+      
+      width: 35%;
+    
+    }
+    td{
+      border-bottom: 1px solid #E4E4E4;
+
+    }
+
+    tr:last-child{
+      th{
+        border: 0;
+      }
+      td{
+        border: 0; 
+      }
+    }
+
+  }  
+
+  
+
+
+}

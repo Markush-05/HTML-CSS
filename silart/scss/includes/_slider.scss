@@ -1,0 +1,241 @@
+
+
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-w-list {
+  overflow: hidden;
+}
+
+
+/* Лента слайдов */
+.slick-track{
+  display: flex;
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{
+}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+
+
+/* Стрелка  Загальні стилі */
+.slider-w .slick-arrow, .slider-news .slick-arrow {
+  cursor: pointer;
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  //top: calc(100% + 13px);
+  bottom: 45px;
+  right: 0;
+  z-index: 100;
+  font-size: 0;
+  background: unset;
+  border: none;
+  color: #C5C5C580;
+  transition: 0.3s all ease;
+}
+
+/* Стрелка */
+.slider-w .slick-arrow::before{
+ // opacity: 0.5;
+ font-family: "icons";
+ font-size: 36px;
+ fill: currentColor;
+ ///color: #fff;
+}
+ 
+/* Стрелка hover */
+.slider-w .slick-arrow:hover{
+  color: #fff;
+  
+}
+
+/* Стрелка влево */
+.slider-w .slick-arrow.slick-prev{
+  right: 165px;
+  //right: 10.2vw;
+  
+}
+.slider-news .slick-arrow.slick-prev::before,.slider-w .slick-arrow.slick-prev::before, .slider-product-nav .slick-arrow.slick-prev::before{
+  content: "\e905" ;
+}  
+
+/* Стрелка вправо */
+.slider-w .slick-arrow.slick-next{
+  right: 130px;
+ // right: 8.1vw;
+}
+.slider-news .slick-arrow.slick-next::before,.slider-w .slick-arrow.slick-next::before, .slider-product-nav .slick-arrow.slick-next::before{
+  
+  content: "\e904";
+}
+
+
+@media(max-width:800px){
+  /* Стрелка влево */
+  .slider-w .slick-arrow.slick-prev{
+    right: 8vw;
+    
+  }
+
+  /* Стрелка вправо */
+.slider-w .slick-arrow.slick-next{
+   right: 1vw;
+}
+}
+
+
+/* Точки (булиты) */
+.slider-w .slick-dots{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 50;
+  bottom: -4px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.slider-w .slick-dots li{
+  width: 100%;
+  list-style: none;
+  margin: 0 1px;
+}
+/* Активная точка */
+.slider-w .slick-dots li.slick-active button{
+  opacity: 1;
+  //width: px;
+  //height: 12px;
+}
+/* Элемент точки */
+.slider-w .slick-dots li button{
+  padding: 0;
+  border:none;
+  font-size: 0px;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  //border-radius: 50%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+
+////////// news 
+
+/* Стрелка */
+.slider-news .slick-arrow::before{     
+  font-family: "icons";
+  font-size: 36px;
+  
+  fill: currentColor;
+}
+
+
+
+/* Стрелка вправо */
+.slider-news .slick-arrow.slick-next{
+  bottom: 110%;
+  right: -15px;
+}
+
+
+/* Стрелка влево */
+.slider-news .slick-arrow.slick-prev{
+  bottom: 110%;
+  right: 20px;
+}
+
+/* Стрелка */
+.slider-news .slick-arrow:hover{
+  color: #CA3C2F;
+  .slider-news .slick-arrow::before{  
+    color: #CA3C2F;
+  }
+}
+
+
+
+
+
+/////////////--------------------------------------------// __ produkt
+
+.slider-product-nav .slick-list {
+  overflow: hidden;
+}
+
+.slider-product-nav .slick-arrow {
+  cursor: pointer;
+  width: 30px;
+  height: 60px;
+  position: absolute;
+  //top: calc(100% + 13px);
+  bottom: 15px;
+  right: 0;
+  z-index: 100;
+  font-size: 0;
+  background: unset;
+  border: none;
+  color: #C5C5C580;
+  transition: 0.3s all ease;
+}
+
+/* Стрелка влево */
+.slider-product-nav .slick-arrow.slick-prev{
+  left: -40px;
+}
+
+
+/* Стрелка */
+.slider-product-nav .slick-arrow::before{     
+  font-family: "icons";
+  font-size: 36px;
+  
+  fill: currentColor;
+}
+
+
+
+/* Стрелка вправо */
+.slider-product-nav .slick-arrow.slick-next{
+  right: -40px;
+}
+
+
+/* Стрелка */
+.slider-product-nav .slick-arrow:hover{
+  color: #CA3C2F;
+  .slider-product-nav .slick-arrow::before{  
+    color: #CA3C2F;
+  }
+}
