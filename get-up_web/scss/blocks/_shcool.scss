@@ -1,0 +1,113 @@
+.shcool {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin: -1px;
+  position: relative;
+  &__inner {
+    display: flex;
+  }
+
+	&--get-start {
+		padding-top: 40px;
+   }
+
+
+  &__tile {
+    width: 50%;
+    padding-left: 75px;
+    z-index: 100;
+    position: relative;
+
+    
+    &--img-w {
+      position: relative;
+      text-align: center;
+      //width: calc(100% - 150px);
+      //z-index: 100;
+    }
+
+    img:nth-child(2){
+      position: absolute;
+      top: 30px;
+      left: 50px;
+
+    }
+    img:nth-child(3){
+      position: absolute;
+      top: 310px;
+      left: 145px;
+
+    }
+    .get-start-img:nth-child(2){
+      position: absolute;
+      top: 115px;
+      left: 120px;
+
+    }
+    .get-start-img:nth-child(3){
+      
+      position: absolute;
+      top: 250px;
+      left: auto;
+      right: -10px;
+
+    }
+  }
+
+  &__title {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 50px;
+    color: #99EFD0;
+    padding-top: 20px;
+    margin: 0 0 30px 0;
+ 
+    &--get-start {
+      padding-top: 100px;
+      margin: 0;
+    }
+
+  
+  }
+
+  &__text {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 45px;
+
+    &--get-start {
+      margin-bottom: 50px;
+
+    }
+  }
+}
+.shcool-maps{
+  background-image: url(#{$rootUrl}shcool/Mask_Group.png);
+  height: 465px;
+  width: 690px;
+  position: absolute;
+  bottom: 35px;
+  right: 100px;
+
+}
+
+
+@media(max-width: 800px){
+  .shcool{
+    padding-top: 0;
+  &__tile {
+   width: 100%;
+   text-align: center;
+   padding: 10px;
+   
+  }
+ }
+  .shcool__inner {
+  flex-direction: column;
+  }
+
+}
