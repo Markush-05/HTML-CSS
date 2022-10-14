@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Markush-05 
+Markush-05
+/
+HTML-CSS
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+HTML-CSS/silart/css/main.css
+@Markush-05
+Markush-05 Add files via upload
+Latest commit 2c95ee0 on 13 Jul
+ History
+ 1 contributor
+2777 lines (2637 sloc)  53.2 KB
+
 @charset "UTF-8";
 @font-face {
   font-family: "Noah";
@@ -868,7 +897,7 @@ body {
 .welcome {
   position: relative;
   background-color: #072831;
-  background: url(/mark/silart/img/wlcome/backraunt.jpg);
+  background: url(../../silart/img/wlcome/backraunt.jpg);
   padding-top: 130px;
   padding-bottom: 149px;
   background-repeat: no-repeat;
@@ -1074,7 +1103,7 @@ body {
   width: 100%;
   height: 180px;
   background-color: red;
-  background: url(/mark/silart/img/about/mountains.png);
+  background: url(../../silart/img/about/mountains.png);
   background-size: cover;
 }
 
@@ -1112,12 +1141,12 @@ body {
   color: transparent;
   padding-top: 10px;
   margin-bottom: 32px;
-  background: url(/mark/silart/img/about/fon_text.png);
+  background: url(../../silart/img/about/fon_text.png);
   background-position: center;
   -webkit-background-clip: text;
 }
 .volumes-list__num span {
-  background: url(/mark/silart/img/about/fon_text.png);
+  background: url(../../silart/img/about/fon_text.png);
   background-position: center;
   -webkit-background-clip: text;
   font-size: 30px;
@@ -1268,7 +1297,7 @@ body {
   content: "";
   width: 40px;
   height: 30px;
-  background: url(/mark/silart/img/product/hover.svg);
+  background: url(../../silart/img/product/hover.svg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-transition: 0.3s all ease;
@@ -1704,7 +1733,7 @@ body {
   }
 }
 .footer {
-  background: url(/mark/silart/img/footer.jpg);
+  background: url(../../silart/img/footer.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -2775,3 +2804,18 @@ body {
     font-size: 14px;
   }
 }
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+HTML-CSS/main.css at main · Markush-05/HTML-CSS
