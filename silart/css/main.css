@@ -304,7 +304,7 @@ body {
 
 @font-face {
   font-family: "icons";
-  src: url("/mark/silart/fonts/icons.ttf?9vyaij") format("truetype"), url("/mark/silart/fonts/icons.woff?9vyaij") format("woff"), url("/mark/silart/fonts/icons.svg?9vyaij#icons") format("svg");
+  src: url("../../silart/fonts/icons.ttf?9vyaij") format("truetype"), url("../../silart/fonts/icons.woff?9vyaij") format("woff"), url("../../silart/fonts/icons.svg?9vyaij#icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
